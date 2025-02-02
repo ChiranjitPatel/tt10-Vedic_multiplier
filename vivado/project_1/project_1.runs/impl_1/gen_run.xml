@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1738519316">
+  <File Type="ROUTE-PWR" Name="i8bit_mul_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="i8bit_mul.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="i8bit_mul_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="i8bit_mul_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="i8bit_mul_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="i8bit_mul.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="i8bit_mul_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="i8bit_mul_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="i8bit_mul_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="i8bit_mul_opt.dcp"/>
+  <File Type="OPT-DRC" Name="i8bit_mul_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="i8bit_mul.hwdef"/>
+  <File Type="PWROPT-DCP" Name="i8bit_mul_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="i8bit_mul_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="i8bit_mul_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="i8bit_mul_placed.dcp"/>
+  <File Type="PLACE-IO" Name="i8bit_mul_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="i8bit_mul_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="i8bit_mul_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="i8bit_mul_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="i8bit_mul_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="i8bit_mul_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="i8bit_mul_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="i8bit_mul.bin"/>
+  <File Type="PLACE-TIMING" Name="i8bit_mul_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="i8bit_mul_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="i8bit_mul_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="i8bit_mul_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="i8bit_mul.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="i8bit_mul_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="i8bit_mul_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="i8bit_mul_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="i8bit_mul.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="i8bit_mul_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="i8bit_mul_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="i8bit_mul_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="i8bit_mul_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="i8bit_mul_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="i8bit_mul_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="i8bit_mul_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="i8bit_mul_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="i8bit_mul_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="i8bit_mul_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="i8bit_mul_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="i8bit_mul_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="i8bit_mul_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="i8bit_mul_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="i8bit_mul_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="i8bit_mul_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="i8bit_mul_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="i8bit_mul_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="i8bit_mul_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="i8bit_mul_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="i8bit_mul_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="i8bit_mul_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="i8bit_mul_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="i8bit_mul_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="i8bit_mul_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="i8bit_mul_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="i8bit_mul_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="i8bit_mul.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="i8bit_mul_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="i8bit_mul_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="i8bit_mul.nky"/>
+  <File Type="BITSTR-BMM" Name="i8bit_mul_bd.bmm"/>
+  <File Type="PDI-FILE" Name="i8bit_mul.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="i8bit_mul_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="i8bit_mul_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="i8bit_mul.rcfi"/>
+  <File Type="CFI_FILE" Name="i8bit_mul.cfi"/>
+  <File Type="RNPI_FILE" Name="i8bit_mul.rnpi"/>
+  <File Type="NPI_FILE" Name="i8bit_mul.npi"/>
+  <File Type="RBD_FILE" Name="i8bit_mul.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="i8bit_mul.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="i8bit_mul.sysdef"/>
+  <File Type="BG-BGN" Name="i8bit_mul.bgn"/>
+  <File Type="BG-DRC" Name="i8bit_mul.drc"/>
+  <File Type="RDI-RDI" Name="i8bit_mul.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="i8bit_mul_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="i8bit_mul_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../src/csa_1_4b_4b_2b_3ip_i4.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/csa_1_8b_8b_4b_3ip_i8.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/csa_2_4b_3b_2ip_i4.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/csa_2_8b_5b_2ip_i8.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/fa.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/fa_nbit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/fa_nbit_interface.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/ha.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/ha_nbit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/ha_nbit_interface.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/i2bit_mul.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/i4bit_mul.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/xor_blk.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/xor_nbit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/xor_nbit_interface.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/i8bit_mul.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/csa_3_4b_4b_2ip.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../src/csa_1_8b_8b_4b_3ip.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="i8bit_mul"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2024">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

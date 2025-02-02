@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_i8bit_mul_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_i8bit_mul" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="16.666 ns"></ZoomStartTime>
+      <ZoomEndTime time="116.667 ns"></ZoomEndTime>
+      <Cursor1Time time="100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/tb_i8bit_mul/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/s" type="array">
+      <obj_property name="ElementShortName">s[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N1/a" type="array">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N1/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N1/s" type="array">
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N1/w" type="array">
+      <obj_property name="ElementShortName">w[20:0]</obj_property>
+      <obj_property name="ObjectShortName">w[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N2/a" type="array">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N2/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N2/s" type="array">
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N2/w" type="array">
+      <obj_property name="ElementShortName">w[20:0]</obj_property>
+      <obj_property name="ObjectShortName">w[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N3/a" type="array">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N3/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N3/s" type="array">
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N3/w" type="array">
+      <obj_property name="ElementShortName">w[20:0]</obj_property>
+      <obj_property name="ObjectShortName">w[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N4/a" type="array">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N4/b" type="array">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N4/s" type="array">
+      <obj_property name="ElementShortName">s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/N4/w" type="array">
+      <obj_property name="ElementShortName">w[20:0]</obj_property>
+      <obj_property name="ObjectShortName">w[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C1/ia" type="array">
+      <obj_property name="ElementShortName">ia[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ia[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C1/ib" type="array">
+      <obj_property name="ElementShortName">ib[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ib[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C1/ic" type="array">
+      <obj_property name="ElementShortName">ic[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ic[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C1/ot" type="array">
+      <obj_property name="ElementShortName">ot[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ot[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C2/ia" type="array">
+      <obj_property name="ElementShortName">ia[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ia[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C2/ib" type="array">
+      <obj_property name="ElementShortName">ib[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ib[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_i8bit_mul/uut/C2/ot" type="array">
+      <obj_property name="ElementShortName">ot[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ot[7:0]</obj_property>
+   </wvobject>
+</wave_config>

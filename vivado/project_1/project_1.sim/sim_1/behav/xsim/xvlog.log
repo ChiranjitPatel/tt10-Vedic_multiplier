@@ -1,0 +1,31 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/csa_1_4b_4b_2b_3ip_i4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_1_4b_4b_2b_3ip_i4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/csa_1_8b_8b_4b_3ip_i8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_1_8b_8b_4b_3ip_i8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/csa_2_4b_3b_2ip_i4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_2_4b_3b_2ip_i4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/csa_2_8b_5b_2ip_i8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module csa_2_8b_5b_2ip_i8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/fa.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fa_nbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/ha.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ha_nbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/i2bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/i4bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i4bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/i8bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i8bit_mul
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/xor_blk.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_blk
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/xor_nbit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_nbit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/xor_nbit_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Github/tt10-Vedic_multiplier/src/tb_i8bit_mul.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_i8bit_mul

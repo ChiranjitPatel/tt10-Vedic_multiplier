@@ -1,0 +1,304 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Feb  2 23:30:48 2025
+# Process ID: 23692
+# Current directory: D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log i8bit_mul.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source i8bit_mul.tcl
+# Log file: D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.runs/synth_1/i8bit_mul.vds
+# Journal file: D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.runs/synth_1\vivado.jou
+# Running On        :GHOST
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17041 MB
+# Swap memory       :1073 MB
+# Total Virtual     :18114 MB
+# Available Virtual :4016 MB
+#-----------------------------------------------------------
+source i8bit_mul.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 515.523 ; gain = 196.625
+Command: synth_design -top i8bit_mul -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7096
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 971.250 ; gain = 451.793
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'i8bit_mul' [D:/Github/tt10-Vedic_multiplier/src/i8bit_mul.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'i4bit_mul' [D:/Github/tt10-Vedic_multiplier/src/i4bit_mul.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'i2bit_mul' [D:/Github/tt10-Vedic_multiplier/src/i2bit_mul.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'i2bit_mul' (0#1) [D:/Github/tt10-Vedic_multiplier/src/i2bit_mul.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'csa_1_4b_4b_2b_3ip_i4' [D:/Github/tt10-Vedic_multiplier/src/csa_1_4b_4b_2b_3ip_i4.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fa' [D:/Github/tt10-Vedic_multiplier/src/fa.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'fa' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit__parameterized0' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit__parameterized0' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ha' [D:/Github/tt10-Vedic_multiplier/src/ha.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'ha' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized0' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized0' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'csa_1_4b_4b_2b_3ip_i4' (0#1) [D:/Github/tt10-Vedic_multiplier/src/csa_1_4b_4b_2b_3ip_i4.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'csa_2_4b_3b_2ip_i4' [D:/Github/tt10-Vedic_multiplier/src/csa_2_4b_3b_2ip_i4.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized1' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized1' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized2' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized2' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit__parameterized1' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit__parameterized1' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'csa_2_4b_3b_2ip_i4' (0#1) [D:/Github/tt10-Vedic_multiplier/src/csa_2_4b_3b_2ip_i4.sv:4]
+WARNING: [Synth 8-689] width (4) of port connection 'ot' does not match port width (5) of module 'csa_2_4b_3b_2ip_i4' [D:/Github/tt10-Vedic_multiplier/src/i4bit_mul.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'i4bit_mul' (0#1) [D:/Github/tt10-Vedic_multiplier/src/i4bit_mul.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'csa_1_8b_8b_4b_3ip_i8' [D:/Github/tt10-Vedic_multiplier/src/csa_1_8b_8b_4b_3ip_i8.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'xor_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/xor_nbit_interface.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xor_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/xor_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized3' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized3' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit__parameterized2' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit__parameterized2' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit__parameterized3' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit__parameterized3' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'xor_nbit' [D:/Github/tt10-Vedic_multiplier/src/xor_nbit.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'xor_blk' [D:/Github/tt10-Vedic_multiplier/src/xor_blk.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'xor_blk' (0#1) [D:/Github/tt10-Vedic_multiplier/src/xor_blk.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'xor_nbit' (0#1) [D:/Github/tt10-Vedic_multiplier/src/xor_nbit.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'csa_1_8b_8b_4b_3ip_i8' (0#1) [D:/Github/tt10-Vedic_multiplier/src/csa_1_8b_8b_4b_3ip_i8.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'csa_2_8b_5b_2ip_i8' [D:/Github/tt10-Vedic_multiplier/src/csa_2_8b_5b_2ip_i8.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'xor_nbit_interface' [D:/Github/tt10-Vedic_multiplier/src/xor_nbit_interface.sv:18]
+	Parameter N bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xor_nbit_interface' (0#1) [D:/Github/tt10-Vedic_multiplier/src/xor_nbit_interface.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized4' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized4' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'ha_nbit__parameterized5' [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ha_nbit__parameterized5' (0#1) [D:/Github/tt10-Vedic_multiplier/src/ha_nbit.sv:18]
+INFO: [Synth 8-6157] synthesizing module 'fa_nbit__parameterized4' [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+	Parameter N bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fa_nbit__parameterized4' (0#1) [D:/Github/tt10-Vedic_multiplier/src/fa_nbit.sv:18]
+INFO: [Synth 8-6155] done synthesizing module 'csa_2_8b_5b_2ip_i8' (0#1) [D:/Github/tt10-Vedic_multiplier/src/csa_2_8b_5b_2ip_i8.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'i8bit_mul' (0#1) [D:/Github/tt10-Vedic_multiplier/src/i8bit_mul.sv:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1082.930 ; gain = 563.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1082.930 ; gain = 563.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1082.930 ; gain = 563.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1082.930 ; gain = 563.473
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 153   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    14|
+|2     |LUT3 |     8|
+|3     |LUT4 |    35|
+|4     |LUT5 |    12|
+|5     |LUT6 |    63|
+|6     |IBUF |    16|
+|7     |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   164|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1292.031 ; gain = 772.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1300.758 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1383.777 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e429f27
+INFO: [Common 17-83] Releasing license: Synthesis
+91 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1383.777 ; gain = 868.254
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1383.777 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.runs/synth_1/i8bit_mul.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file i8bit_mul_utilization_synth.rpt -pb i8bit_mul_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Feb  2 23:31:44 2025...

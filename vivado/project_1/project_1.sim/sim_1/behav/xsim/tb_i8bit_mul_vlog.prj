@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../src/csa_1_4b_4b_2b_3ip_i4.sv" \
+"../../../../../../src/csa_1_8b_8b_4b_3ip_i8.sv" \
+"../../../../../../src/csa_2_4b_3b_2ip_i4.sv" \
+"../../../../../../src/csa_2_8b_5b_2ip_i8.sv" \
+"../../../../../../src/fa.sv" \
+"../../../../../../src/fa_nbit.sv" \
+"../../../../../../src/fa_nbit_interface.sv" \
+"../../../../../../src/ha.sv" \
+"../../../../../../src/ha_nbit.sv" \
+"../../../../../../src/ha_nbit_interface.sv" \
+"../../../../../../src/i2bit_mul.sv" \
+"../../../../../../src/i4bit_mul.sv" \
+"../../../../../../src/i8bit_mul.sv" \
+"../../../../../../src/xor_blk.sv" \
+"../../../../../../src/xor_nbit.sv" \
+"../../../../../../src/xor_nbit_interface.sv" \
+"../../../../../../src/tb_i8bit_mul.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

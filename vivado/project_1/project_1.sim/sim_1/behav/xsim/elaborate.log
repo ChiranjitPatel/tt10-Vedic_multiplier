@@ -1,0 +1,47 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/SOFTWARES/vivado2024/install/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_i8bit_mul_behav xil_defaultlib.tb_i8bit_mul xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 'ot' [D:/Github/tt10-Vedic_multiplier/src/i4bit_mul.sv:22]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Github/tt10-Vedic_multiplier/vivado/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.i2bit_mul
+Compiling module xil_defaultlib.fa_nbit_interface_default
+Compiling module xil_defaultlib.ha_nbit_interface_default
+Compiling module xil_defaultlib.ha_nbit_interface(N=1)
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.fa_nbit_default
+Compiling module xil_defaultlib.ha
+Compiling module xil_defaultlib.ha_nbit_default
+Compiling module xil_defaultlib.ha_nbit(N=1)(ha_i=ha_nbit_interf...
+Compiling module xil_defaultlib.csa_1_4b_4b_2b_3ip_i4
+Compiling module xil_defaultlib.ha_nbit_interface(N=3)
+Compiling module xil_defaultlib.ha_nbit(N=3)(ha_i=ha_nbit_interf...
+Compiling module xil_defaultlib.csa_2_4b_3b_2ip_i4
+Compiling module xil_defaultlib.i4bit_mul
+Compiling module xil_defaultlib.ha_nbit_interface(N=4)
+Compiling module xil_defaultlib.fa_nbit_interface(N=4)
+Compiling module xil_defaultlib.fa_nbit_interface(N=6)
+Compiling module xil_defaultlib.xor_nbit_interface(N=1)
+Compiling module xil_defaultlib.ha_nbit(N=4)(ha_i=ha_nbit_interf...
+Compiling module xil_defaultlib.fa_nbit(N=4)(fa_i=fa_nbit_interf...
+Compiling module xil_defaultlib.fa_nbit(N=6)(fa_i=fa_nbit_interf...
+Compiling module xil_defaultlib.xor_blk
+Compiling module xil_defaultlib.xor_nbit(N=1)(xor_i=xor_nbit_int...
+Compiling module xil_defaultlib.csa_1_8b_8b_4b_3ip_i8
+Compiling module xil_defaultlib.ha_nbit_interface(N=5)
+Compiling module xil_defaultlib.fa_nbit_interface(N=3)
+Compiling module xil_defaultlib.ha_nbit(N=5)(ha_i=ha_nbit_interf...
+Compiling module xil_defaultlib.fa_nbit(N=3)(fa_i=fa_nbit_interf...
+Compiling module xil_defaultlib.csa_2_8b_5b_2ip_i8
+Compiling module xil_defaultlib.i8bit_mul
+Compiling module xil_defaultlib.tb_i8bit_mul
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_i8bit_mul_behav
