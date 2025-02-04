@@ -21,7 +21,7 @@ project:
     - "csa_1_4b_4b_2b_3ip_i4.sv"
     - "csa_1_8b_8b_4b_3ip_i8.sv"
     - "csa_2_4b_3b_2ip_i4.sv"
-    - "csa_2_8b_5b_2ip_i5.sv"
+    - "csa_2_8b_5b_2ip_i8.sv"
     - "fa.sv"
     - "fa_nbit.sv"
     - "fa_nbit_interface.sv"
