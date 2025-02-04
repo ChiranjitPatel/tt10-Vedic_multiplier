@@ -17,13 +17,7 @@ module tt_um_example (
 );
 
   // All output pins must be assigned. If not used, assign to 0.
-	i8bit_mul 
-		(
-			.a(ui_in),
-			.b(uio_in),
-			.s(uo_out),
-			.s1(uio_out)
-		);  
+	i8bit_mul uut (.a(ui_in), .b(uio_in),	.s(uo_out),	.s1(uio_out));  
 	// assign uio_out = 0;
 	assign uio_oe  = 0;
 
