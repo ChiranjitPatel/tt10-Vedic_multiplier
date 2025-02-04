@@ -24,7 +24,7 @@ module i8bit_mul(
 	assign s[7:4] = w[35:32];
 
 	// csa_2_8b_5b_2ip_i8 C2 (w[31:24], w[40:36], s[15:8]);
-	csa_2_8b_5b_2ip_i8 C2 (w[31:24], w[40:36], s1[7:0]);
+	// csa_2_8b_5b_2ip_i8 C2 (w[31:24], w[40:36], s1[7:0]);
 	
 	
 endmodule
